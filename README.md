@@ -18,3 +18,8 @@ implementing observer pattern in python. the observer pattern is a behavioral de
 ## 4. Strategy
 
 implementing strategy pattern in python. the strategy pattern is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
+
+## 5. Command
+
+implementing command pattern in python. the command pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event at a later time. this information includes the method name, the object that owns the method and values for the method parameters. the command pattern allows for loosely coupled systems by separating objects that issue a request from the objects that actually process the request. these requests are called events and the code that processes the requests are called event handlers.
+in our code, we implement the execution and the undo of the command. the execution of the command is done by calling the execute method. the undo of the command is done by calling the undo method. but we can also implement the redo of the command by calling the redo method.
