@@ -14,3 +14,7 @@ implementing factory pattern in python. the factory pattern is a creational patt
 ## 3. Observer
 
 implementing observer pattern in python. the observer pattern is a behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+
+## 4. Strategy
+
+implementing strategy pattern in python. the strategy pattern is a behavioral design pattern that lets you define a family of algorithms, put each of them into a separate class, and make their objects interchangeable.
