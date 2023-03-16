@@ -23,3 +23,7 @@ implementing strategy pattern in python. the strategy pattern is a behavioral de
 
 implementing command pattern in python. the command pattern is a behavioral design pattern in which an object is used to encapsulate all information needed to perform an action or trigger an event at a later time. this information includes the method name, the object that owns the method and values for the method parameters. the command pattern allows for loosely coupled systems by separating objects that issue a request from the objects that actually process the request. these requests are called events and the code that processes the requests are called event handlers.
 in our code, we implement the execution and the undo of the command. the execution of the command is done by calling the execute method. the undo of the command is done by calling the undo method. but we can also implement the redo of the command by calling the redo method.
+
+## 6. Decorator
+
+implementing decorator pattern in python. the decorator pattern is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
