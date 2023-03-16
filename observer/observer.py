@@ -36,6 +36,15 @@ class Data(Subject):
     def data(self, value):
         self._data = value
         self.notify()
+        
+    @data.getter
+    def data(self):
+        return self._data
+    
+    @data.deleter
+    def data(self):
+        self._data = None
+        self.notify()
 
      
 class Logger(Observer):
